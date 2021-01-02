@@ -19,7 +19,7 @@ header{
     margin-bottom: 40px;
     /* margin-top: -60px; */
 }
-.main-header:before {
+header:before {
     background: linear-gradient(54deg,rgba(74,76,179,.95) 34%,hsla(0,34%,71%,.95));
     height: 100%;
     left: 0;
@@ -29,6 +29,10 @@ header{
     z-index: 0;
 }
 .main-header{
+    background: linear-gradient(54deg,rgba(74,76,179,.95) 34%,hsla(0,34%,71%,.95));
+    border-bottom: 0px transparent;
+}
+header{
     border-bottom: 0px;
 }
 .navbar{
@@ -153,4 +157,10 @@ img{
 }
 .menu li  a:hover {
     opacity: .5
+}
+@media (max-width: 767.98px){
+    .skill{
+        margin: 25px;
+        border-radius: 10px;
+    }
 }
