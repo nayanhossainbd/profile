@@ -158,6 +158,26 @@ img{
 .menu li  a:hover {
     opacity: .5
 }
+.mixitup-control-active{
+    color: rgba(74,76,179,.95);
+    /* background: linear-gradient(54deg,rgba(74,76,179,.95) 34%,hsla(0,34%,71%,.95)); */
+}
+.position-relative{
+    background-color: #c7c7c7;
+}
+
+.profile-social a{
+    width: 45px;
+    color: #404040;
+}
+.profile-social a:hover{
+    color: rgba(235, 235, 240, 0.95);
+}
+.profile-social a i{
+    font-size: 20px;
+    width: 30px;
+    height: 30px;
+}
 @media (max-width: 767.98px){
     .skill{
         margin: 25px;
