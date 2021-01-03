@@ -1,1 +1,0 @@
-var mixer = mixitup('.projects_mixer');
