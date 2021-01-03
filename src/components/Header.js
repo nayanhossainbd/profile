@@ -1,8 +1,11 @@
+import {  react} from "react";
+function Header() {
+    return (
 <div>
   {/* Navbar */}
   <nav className="main-header navbar navbar-expand-md navbar-light navbar-white">
     <div className="container">
-      <a href="./index.html" className="navbar-brand">
+      <a href="/" className="navbar-brand">
         <img src="dist/img/png/logo.png" alt="NayanHossain Logo" className="brand-image img-circle elevation-3" style={{"opacity":".8"}} />
         {/* <span class=" text-grey">Nayan Hossain</span> */}
       </a>
@@ -59,3 +62,7 @@
     </div>
   </header>
 </div>
+  );
+}
+
+export default Header;
